@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>To-do List</title>
+  <!-- Latest compiled and minified CSS Bootstrap 3 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <h2 class="text-center">To Do List</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div id="todo-list">
+        </div>
+        <form id="create-task">
+          <input id="newTask" placeholder="New task" required />
+          <button>Add</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="filtered">
+        <button class="filtered all" id="all">All</button>
+        <button class="filtered remaining" id="remaining">Remaining</button>
+        <button class="filtered complete" id="complete">Completed</button>
+      </div>
+    </div>
+
+
+  </div>
+</body>
