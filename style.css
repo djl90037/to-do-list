@@ -1,0 +1,16 @@
+h2 {
+  color: white;
+}
+
+.delete {
+  margin-right: 5px;
+}
+
+body {
+  background-color: rgb(47, 111, 220);
+}
+
+.container {
+  border-radius: .5rem;
+  background: white;
+}
