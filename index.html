@@ -12,26 +12,29 @@
 </head>
 
 <body>
-  <h2 class="text-center">To Do List</h2>
-  <div class="container">
+  <div style="height:75px"></div>
+  <h2 class="text-center" style="color:white">To Do List</h2>
+  <div class="container top">
     <div class="row">
       <div class="col-12">
         <div id="todo-list">
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="container bottom">
+    <div class="row form-inline">
+      <div class="form-group">
         <form id="create-task">
           <input id="newTask" placeholder="New task" required />
           <button>Add</button>
         </form>
       </div>
-    </div>
-    <div class="row">
-      <div class="filtered">
-        <button class="filtered all" id="all">All</button>
-        <button class="filtered remaining" id="remaining">Remaining</button>
-        <button class="filtered complete" id="complete">Completed</button>
+      <div class="filtered-div">
+        <button class="filtered remaining" id="remaining-button">Remaining</button>
+        <button class="filtered complete" id="completed-button">Completed</button>
+        <button class="btn-group-toggle filtered all" data-toggle="buttons" id="all-button">All</button>
       </div>
     </div>
-
-
   </div>
 </body>
